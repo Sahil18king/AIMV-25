@@ -1,0 +1,68 @@
+.hh1 { font-size: 32px; }
+.hh2 { font-size: 28px; }
+.hh3 { font-size: 24px; }
+.hh4 { font-size: 20px; }
+.hh5 { font-size: 18px; }
+.hh6 { font-size: 16px; }
+.large-text { font-size: 40px; }
+
+
+@media screen and (max-width: 1200px) {
+    .hh1 { font-size: 28px; }
+    .hh2 { font-size: 24px; }
+    .hh3 { font-size: 22px; }
+    .large-text { font-size: 36px; }
+    #heading span
+    {
+        background-image: linear-gradient(transparent 29px, #FCD770 5%, #FF826E 104%);
+    }
+}
+
+@media screen and (max-width: 1110px)
+{
+    .hh6
+    {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1040px)
+{
+    .hh6
+    {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hh4 { font-size: 18px; }
+    .hh5 { font-size: 14px; }
+    .hh6 { font-size: 12px; }
+    .large-text { font-size: 32px }
+}
+
+@media screen and (max-width: 640px) {
+    .hh1 { font-size: 25px; }
+    .hh2 { font-size: 21px; }
+    .hh3 { font-size: 19px; }
+    #heading span
+    {
+        background-image: linear-gradient(transparent 25px, #FCD770 5%, #FF826E 104%);
+    }
+    .large-text { font-size: 28px; }
+    .flex-layout {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hh1 { font-size: 24px; }
+    #heading span
+    {
+        background-image: linear-gradient(transparent 23px, #FCD770 5%, #FF826E 104%);
+    }
+    .hh2 { font-size: 20px; }
+    .hh3 { font-size: 18px; }
+    .large-text { font-size: 24px; }
+}

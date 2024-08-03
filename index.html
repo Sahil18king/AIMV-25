@@ -1,0 +1,776 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="Ipsum.css">
+        <link rel="stylesheet" type="text/css" href="font.css">
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+        <!-- link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="owl.css"/>
+        <script src="countdown.js"></script>
+        <script src="slideshow.js"></script>
+        <script src="popup.js"></script>
+        <!-- <script src="reach_us.js"></script> -->
+    </head>
+    <title>
+        AIMV-21
+    </title>
+    <link rel = "icon" href = "logo_aimv.svg" type = "image/x-icon">
+    <body>
+        <!--Navbar-->
+        <nav id="mynav" class="navbar navbar-static-top navbar-expand-lg primary-color">
+            <!-- Navbar brand -->
+            <a id="Title" class="navbar-brand" href="index.html"><svg id="logo" width="140" height="100" viewBox="0 0 140 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M126.195 59.3297C130.968 59.3297 134.828 63.0516 134.828 67.6547C134.828 72.2531 130.968 75.9797 126.195 75.9797C121.426 75.9797 117.566 72.2531 117.566 67.6547C117.566 63.0516 121.426 59.3297 126.195 59.3297Z" fill="#FF826E"/>
+            <path d="M95.9826 125.92L74.4042 130.083V105.112L87.4806 102.591L95.9826 100.95V109.275C93.6056 109.275 91.6708 111.15 91.6708 113.433V117.595C91.6708 119.888 93.6056 121.758 95.9826 121.758V125.92Z" fill="#E6E9ED"/>
+            <path d="M65.7709 105.112V130.083L44.1924 125.92V121.758C46.5695 121.758 48.5091 119.888 48.5091 117.595V113.433C48.5091 111.15 46.5695 109.275 44.1924 109.275V100.95L52.6993 102.591L65.7709 105.112Z" fill="#E6E9ED"/>
+            <path d="M74.4042 105.113V130.083H65.7709V105.113H74.4042Z" fill="#AAB2BD"/>
+            <path d="M87.4806 102.591L74.4042 105.112H70.0875C73.6702 105.112 76.5625 102.323 76.5625 98.8687C76.5625 98.1609 76.4118 97.5094 76.1979 96.8672C80.6993 97.3313 84.6806 99.4547 87.4806 102.591Z" fill="#4FC1E9"/>
+            <path d="M65.7709 105.112L52.6993 102.591C55.4945 99.4547 59.4757 97.3313 63.9771 96.8672C63.7681 97.5094 63.6125 98.1609 63.6125 98.8687C63.6125 102.323 66.5049 105.112 70.0875 105.112H65.7709Z" fill="#4FC1E9"/>
+            <path d="M98.141 109.275C99.332 109.275 100.299 110.208 100.299 111.352V119.677C100.299 120.825 99.332 121.758 98.141 121.758H95.9826C93.6056 121.758 91.6708 119.888 91.6708 117.595V113.433C91.6708 111.15 93.6056 109.275 95.9826 109.275H98.141Z" fill="#F0D0B4"/>
+            <path d="M48.5091 113.433V117.595C48.5091 119.888 46.5695 121.758 44.1924 121.758H42.0341C40.848 121.758 39.8757 120.825 39.8757 119.677V111.352C39.8757 110.208 40.848 109.275 42.0341 109.275H44.1924C46.5695 109.275 48.5091 111.15 48.5091 113.433Z" fill="#F0D0B4"/>
+            <path d="M74.4042 96.7875C75.0118 96.7875 75.6097 96.8109 76.1979 96.8672C76.4118 97.5094 76.5625 98.1609 76.5625 98.8688C76.5625 102.323 73.6701 105.113 70.0875 105.113C66.5048 105.113 63.6125 102.323 63.6125 98.8688C63.6125 98.1609 63.768 97.5094 63.9771 96.8672C64.5653 96.8109 65.1632 96.7875 65.7708 96.7875H74.4042Z" fill="#F0D0B4"/>
+            <path d="M54.9841 94.5047V88.4625C54.9841 83.8641 51.1195 80.1375 46.3507 80.1375H41.3681C40.848 78.8063 40.4834 77.4188 40.2403 75.9797C40.0021 74.6203 39.8757 73.2281 39.8757 71.8172V55.1672C39.8757 52.875 41.8153 51.0047 44.1924 51.0047H95.9827C98.3598 51.0047 100.299 52.875 100.299 55.1672V71.8172C100.299 73.2281 100.173 74.6203 99.9396 75.9797C99.6917 77.4188 99.332 78.8063 98.807 80.1375H93.8244C89.0556 80.1375 85.1959 83.8641 85.1959 88.4625V94.5047L85.2202 94.5188C81.9146 95.9766 78.2639 96.7875 74.4042 96.7875H65.7709C61.9112 96.7875 58.2605 95.9766 54.9549 94.5188L54.9841 94.5047Z" fill="#F0D0B4"/>
+            <path d="M108.933 63.4922V71.8172C108.933 74.1 106.993 75.9797 104.616 75.9797H99.9396C100.173 74.6203 100.299 73.2281 100.299 71.8172V59.3297H104.616C106.993 59.3297 108.933 61.2 108.933 63.4922Z" fill="#F0D0B4"/>
+            <path d="M40.2403 75.9797H35.559C33.182 75.9797 31.2424 74.1 31.2424 71.8172V63.4922C31.2424 61.2 33.182 59.3297 35.559 59.3297H39.8757V71.8172C39.8757 73.2281 40.0021 74.6203 40.2403 75.9797Z" fill="#F0D0B4"/>
+            <path d="M91.6708 63.4922V65.5734C91.6708 66.7172 90.6986 67.6547 89.5125 67.6547H80.8792C79.6882 67.6547 78.7208 66.7172 78.7208 65.5734V63.4922C78.7208 61.2 80.6604 59.3297 83.0375 59.3297H87.3542C89.7312 59.3297 91.6708 61.2 91.6708 63.4922Z" fill="#969FAA"/>
+            <path d="M61.4542 63.4922V65.5734C61.4542 66.7172 60.4868 67.6547 59.3007 67.6547H50.6674C49.4764 67.6547 48.509 66.7172 48.509 65.5734V63.4922C48.509 61.2 50.4486 59.3297 52.8257 59.3297H57.1424C59.5194 59.3297 61.4542 61.2 61.4542 63.4922Z" fill="#969FAA"/>
+            <path d="M85.1959 88.4625C85.1959 83.8641 89.0556 80.1375 93.8243 80.1375H98.807C96.4834 86.5313 91.5445 91.7063 85.2202 94.5188L85.1959 94.5047V88.4625Z" fill="#FF826E"/>
+            <path d="M54.984 88.4625V94.5047L54.9548 94.5188C48.6354 91.7063 43.6965 86.5313 41.368 80.1375H46.3507C51.1194 80.1375 54.984 83.8641 54.984 88.4625Z" fill="#FF826E"/>
+            <path d="M67.3507 5.3719C56.9042 6.49221 48.2465 14.4422 46.6521 24.4735C45.2715 33.0656 48.8542 40.9125 55.0667 45.8297C56.8215 47.1938 58.134 48.9891 58.8 51.0047H81.375C82.0264 49.0078 83.3 47.2453 85.016 45.886C90.3972 41.7094 93.8243 35.2922 93.8243 28.1156C93.8243 14.6156 81.6958 3.8344 67.3507 5.3719Z" fill="#FFEAA7"/>
+            <path d="M81.7639 25.1813C82.566 25.9313 83.0376 26.9719 83.0376 28.1156C83.0376 30.4078 81.098 32.2781 78.7209 32.2781H73.8403L74.1417 27.8484C74.2973 25.6594 76.1737 23.9531 78.4438 23.9531H78.7209C79.907 23.9531 80.9862 24.4078 81.7639 25.1813Z" fill="#FCD770"/>
+            <path d="M66.0334 27.8484L66.3396 32.2781H61.4542C60.2681 32.2781 59.1889 31.8234 58.4111 31.05C57.6139 30.3047 57.1424 29.2641 57.1424 28.1156C57.1424 25.8234 59.0771 23.9531 61.4542 23.9531H61.7361C64.0014 23.9531 65.8827 25.6594 66.0334 27.8484Z" fill="#FCD770"/>
+            <path d="M70.0875 86.3813C67.7104 86.3813 65.7708 84.5109 65.7708 82.2188H61.4542C61.4542 86.8125 65.3236 90.5438 70.0875 90.5438C74.8514 90.5438 78.7208 86.8125 78.7208 82.2188H74.4042C74.4042 84.5109 72.4646 86.3813 70.0875 86.3813Z" fill="black"/>
+            <path d="M50.6674 65.5735V63.4922C50.6674 62.3485 51.6347 61.411 52.8257 61.411H57.1424C58.3285 61.411 59.3007 62.3485 59.3007 63.4922V65.5735H50.6674ZM63.6125 65.5735V63.4922C63.6125 60.0469 60.7153 57.2484 57.1424 57.2484H52.8257C49.2479 57.2484 46.3507 60.0469 46.3507 63.4922V65.5735C46.3507 67.8657 48.2903 69.736 50.6674 69.736H59.3007C61.6778 69.736 63.6125 67.8657 63.6125 65.5735Z" fill="black"/>
+            <path d="M80.8792 63.4922C80.8792 62.3485 81.8465 61.411 83.0375 61.411H87.3542C88.5403 61.411 89.5125 62.3485 89.5125 63.4922V65.5735H80.8792V63.4922ZM80.8792 69.736H89.5125C91.8896 69.736 93.8243 67.8657 93.8243 65.5735V63.4922C93.8243 60.0469 90.9271 57.2484 87.3542 57.2484H83.0375C79.4646 57.2484 76.5625 60.0469 76.5625 63.4922V65.5735C76.5625 67.8657 78.5021 69.736 80.8792 69.736Z" fill="black"/>
+            <path d="M87.3542 90.975V88.4625C87.3542 85.0172 90.2514 82.2188 93.8243 82.2188H95.5209C93.625 85.7813 90.8104 88.7953 87.3542 90.975ZM65.7709 94.7063C62.7278 94.7063 59.8209 94.1297 57.1424 93.1125V88.4625C57.1424 82.725 52.3007 78.061 46.3507 78.061H42.9528C42.3695 76.0688 42.034 73.9781 42.034 71.8172V55.1672C42.034 54.0235 43.0063 53.086 44.1924 53.086H67.9292V78.061H72.2458V53.086H95.9827C97.1736 53.086 98.141 54.0235 98.141 55.1672V71.8172C98.141 73.9781 97.8056 76.0688 97.2222 78.061H93.8243C87.8743 78.061 83.0375 82.725 83.0375 88.4625V93.1125C80.3542 94.1297 77.4472 94.7063 74.4042 94.7063H65.7709ZM77.9285 102.314C78.3417 101.438 78.575 100.486 78.6528 99.4781C80.1354 99.9 81.5257 100.533 82.809 101.372L77.9285 102.314ZM93.8243 107.573C91.3209 108.436 89.5125 110.728 89.5125 113.433V117.595C89.5125 120.305 91.3209 122.597 93.8243 123.459V124.214L76.5625 127.547V106.819L93.8243 103.486V107.573ZM98.141 119.677H95.9827C94.7965 119.677 93.8243 118.744 93.8243 117.595V113.433C93.8243 112.289 94.7965 111.352 95.9827 111.352H98.141V119.677ZM46.3507 123.459C48.8542 122.597 50.6674 120.305 50.6674 117.595V113.433C50.6674 110.728 48.8542 108.436 46.3507 107.573V103.486L63.6125 106.819V127.547L46.3507 124.214V123.459ZM42.034 111.352H44.1924C45.3834 111.352 46.3507 112.289 46.3507 113.433V117.595C46.3507 118.744 45.3834 119.677 44.1924 119.677H42.034V111.352ZM61.5222 99.4781C61.6 100.486 61.8382 101.438 62.2465 102.314L57.366 101.372C58.6493 100.533 60.0396 99.9 61.5222 99.4781ZM67.9292 107.194H72.2458V128.002H67.9292V107.194ZM74.4042 98.8688C74.4042 101.161 72.4646 103.031 70.0875 103.031C67.7104 103.031 65.7709 101.161 65.7709 98.8688H74.4042ZM44.6542 82.2188H46.3507C49.9236 82.2188 52.8257 85.0172 52.8257 88.4625V90.975C49.3695 88.7953 46.5549 85.7813 44.6542 82.2188ZM35.559 73.8985C34.3729 73.8985 33.4007 72.961 33.4007 71.8172V63.4922C33.4007 62.3485 34.3729 61.411 35.559 61.411H37.7174V71.8172C37.7174 72.525 37.7757 73.2047 37.8292 73.8985H35.559ZM64.0452 30.1969H61.4542C60.2681 30.1969 59.3007 29.2641 59.3007 28.1156C59.3007 26.9719 60.2681 26.0344 61.4542 26.0344H61.7361C62.8639 26.0344 63.8167 26.8875 63.8945 27.9797L64.0452 30.1969ZM76.1347 30.1969L76.2854 27.9797C76.3584 26.8875 77.3111 26.0344 78.4438 26.0344H78.7208C79.907 26.0344 80.8792 26.9719 80.8792 28.1156C80.8792 29.2641 79.907 30.1969 78.7208 30.1969H76.1347ZM68.6535 34.3594H71.5215L70.5202 48.9281H69.6597L68.6535 34.3594ZM56.4327 44.2031C50.4486 39.4875 47.5903 32.2313 48.7764 24.7922C50.2202 15.7594 58.134 8.46095 67.5938 7.44376C73.8403 6.76876 79.834 8.60157 84.4715 12.6C89.0459 16.5516 91.6709 22.2 91.6709 28.1156C91.6709 34.4156 88.7542 40.3031 83.65 44.2781C82.0264 45.5531 80.7625 47.1375 79.907 48.9281H74.8417L75.8479 34.3594H78.7208C82.2938 34.3594 85.1959 31.5609 85.1959 28.1156C85.1959 24.6703 82.2938 21.8719 78.7208 21.8719H78.4438C75.0459 21.8719 72.2118 24.4359 71.9834 27.7031L71.8083 30.1969H68.3667L68.1917 27.7031C67.9632 24.4359 65.134 21.8719 61.7361 21.8719H61.4542C57.8813 21.8719 54.984 24.6703 54.984 28.1156C54.984 31.5609 57.8813 34.3594 61.4542 34.3594H64.332L65.3334 48.9281H60.2438C59.3834 47.1281 58.0952 45.5203 56.4327 44.2031ZM104.616 61.411C105.807 61.411 106.774 62.3485 106.774 63.4922V71.8172C106.774 72.961 105.807 73.8985 104.616 73.8985H102.351C102.399 73.2047 102.458 72.525 102.458 71.8172V61.411H104.616ZM101.675 78.061H104.616C108.189 78.061 111.091 75.2625 111.091 71.8172V63.4922C111.091 60.0469 108.189 57.2485 104.616 57.2485H102.458V55.1672C102.458 51.7219 99.5604 48.9281 95.9827 48.9281H84.9479C85.3708 48.4125 85.8278 47.9344 86.3674 47.5125C92.4778 42.75 95.9827 35.6766 95.9827 28.1156C95.9827 21.0188 92.8327 14.2313 87.3445 9.50157C81.866 4.77188 74.4868 2.51719 67.1125 3.30938C55.7472 4.52813 46.2486 13.2984 44.5132 24.1594C43.0792 33.0656 46.5208 41.7656 53.7007 47.4281C54.2646 47.8781 54.7653 48.3891 55.2028 48.9281H44.1924C40.6195 48.9281 37.7174 51.7219 37.7174 55.1672V57.2485H35.559C31.9861 57.2485 29.084 60.0469 29.084 63.4922V65.5735H20.4556V53.086H16.1389V65.5735H11.8222V57.2485H7.50557V65.5735H3.1889V69.736H29.084V71.8172C29.084 75.2625 31.9861 78.061 35.559 78.061H38.5C40.6875 86.925 47.3959 94.0969 56.1459 97.1953C54.6195 98.0391 53.2146 99.0938 51.9556 100.322L42.034 98.4141V107.194C39.657 107.194 37.7174 109.059 37.7174 111.352V119.677C37.7174 121.969 39.657 123.839 42.034 123.839V127.627L65.3528 132.122L74.6132 132.164L98.141 127.627V123.839C100.518 123.839 102.458 121.969 102.458 119.677V111.352C102.458 109.059 100.518 107.194 98.141 107.194V98.4141L88.2195 100.322C86.9653 99.0938 85.5556 98.0391 84.0292 97.1953C92.7792 94.0969 99.4924 86.925 101.675 78.061Z" fill="black"/>
+            <path d="M126.195 73.8984C122.622 73.8984 119.724 71.1 119.724 67.6547C119.724 64.2094 122.622 61.4109 126.195 61.4109C129.772 61.4109 132.67 64.2094 132.67 67.6547C132.67 71.1 129.772 73.8984 126.195 73.8984ZM126.195 57.2484C120.245 57.2484 115.408 61.9172 115.408 67.6547C115.408 73.3922 120.245 78.0609 126.195 78.0609C132.149 78.0609 136.986 73.3922 136.986 67.6547C136.986 61.9172 132.149 57.2484 126.195 57.2484Z" fill="black"/>
+            <path d="M126.194 65.5734C125.008 65.5734 124.041 66.5062 124.041 67.6547C124.041 68.7985 125.008 69.736 126.194 69.736C127.385 69.736 128.353 68.7985 128.353 67.6547C128.353 66.5062 127.385 65.5734 126.194 65.5734Z" fill="black"/>
+            <path d="M105.428 112.331L108.048 115.636C119.185 107.438 127.225 95.7562 130.696 82.7391L126.515 81.6984C123.288 93.8109 115.797 104.691 105.428 112.331Z" fill="black"/>
+            <path d="M12.1528 73.6688L7.86041 74.1094C9.66388 90.4313 18.4722 105.544 32.0444 115.57L34.6646 112.27C22.0403 102.933 13.8299 88.8609 12.1528 73.6688Z" fill="black"/>
+            <path d="M43.0111 17.8922L41.0084 14.2078C25.3604 22.1344 13.8688 36.1172 9.47919 52.5656L13.6597 53.6062C17.7479 38.2922 28.4472 25.2703 43.0111 17.8922Z" fill="black"/>
+            <path d="M126.515 53.6062L130.696 52.5656C126.306 36.1219 114.824 22.1438 99.1813 14.2078L97.1736 17.8969C111.738 25.2797 122.437 38.3016 126.515 53.6062Z" fill="black"/>
+            </svg>
+            </a>
+
+            <!-- Collapse button -->
+            <button id= "cb" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+
+
+                    <li class="nav-item dropdown">
+                        <a id="white1" class="nav-link hh6" href="index.html" dropdown-toggle id="navbarDropdownMenuLink" style="font-weight: 800; color:#2c6c82; animation: animate 1.5s linear infinite"><span class="sr-only">(current)</span>AIMV '21</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a  id="white1" class="nav-link hh6" href="index.html#about_us" dropdown-toggle id="navbarDropdownMenuLink">ABOUT US</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a  id="white1" class="nav-link dropdown-toggle hh6" id="navbarDropdownMenuLink" 
+                            data-toggle="dropdown">COMMITTEE</a>
+                        <div id="dd" class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- <a class="dropdown-item hh6" href="tcp.html">Technical Program Chairs</a> -->
+                          <a class="dropdown-item hh6" href="oc.html">Organizing Committee</a>
+                          <a class="dropdown-item hh6" href="sc.html">Student Committee</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a  id="white1" class="nav-link hh6" href="speakers.html" dropdown-toggle id="navbarDropdownMenuLink">SPEAKERS</a>
+                    </li>
+
+                    <!-- <li class="nav-item dropdown">
+                        <a  id="white1" class="nav-link" href="coming-soon.html" dropdown-toggle id="navbarDropdownMenuLink" 
+                        data-toggle="dropdown">PROGRAM</a>
+                    </li> -->
+
+                    <!-- <li class="nav-item dropdown">
+                        <a  id="white1" class="nav-link hh5" href="coming-soon.html" dropdown-toggle id="navbarDropdownMenuLink" 
+                        data-toggle="dropdown">REGISTRATION</a>
+                    </li> -->
+
+                    <li class="nav-item dropdown">
+                        <a  id="white1" class="nav-link dropdown-toggle hh6" id="navbarDropdownMenuLink" 
+                            data-toggle="dropdown">AUTHOR INFORMATION</a>
+                        <div id="dd" class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item hh6" href="registration.html">Registration</a>
+                          <a class="dropdown-item hh6" href="cfp.pdf" target="_blank" rel="noopener noreferrer">Call For Paper</a>
+                          <a class="dropdown-item hh6" href="index.html#imp_dates">Important Dates</a>
+                          <a class="dropdown-item hh6" href="track-details.html">Tracks' Details</a>
+                          <a class="dropdown-item hh6" href="ss.html">Special Session(s) Details</a>
+                          <a class="dropdown-item hh6" href="submission.html">Submission</a>
+                        </div>
+                    </li>
+
+                    <!-- <li class="nav-item dropdown">
+                    <a  id="white1" class="nav-link" href="coming-soon.html" dropdown-toggle id="navbarDropdownMenuLink" 
+                    data-toggle="dropdown">DELEGATE INFORMATION</a>
+                        
+                    </li> -->
+
+                    <!-- <li class="nav-item dropdown">
+                    <a  id="white1" class="nav-link" href="coming-soon.html" dropdown-toggle id="navbarDropdownMenuLink" 
+                    data-toggle="dropdown">VENUE/TRAVEL</a>
+                        
+                    </li> -->
+
+
+                    <li class="nav-item dropdown">
+                        <a  id="white1" class="nav-link dropdown-toggle hh6" id="navbarDropdownMenuLink" 
+                            data-toggle="dropdown">MORE</a>
+                        <div id="dd" class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- <a class="dropdown-item hh6" href="#">Delegate Information</a> -->
+                          <a class="dropdown-item hh6" href="travel.html">Venue/Travel</a>
+                          <a class="dropdown-item hh6" href="program.html">Program</a>
+                          <a class="dropdown-item hh6" href="index.html#contact_us">Contact Us</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a  id="white1" class="nav-link hh6" href="sponsors.html" dropdown-toggle id="navbarDropdownMenuLink">SPONSORS</a>
+                    </li>
+                        
+                </ul>
+                <!-- Links -->
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+        <br><br>
+        <!-- Banner -->
+        <div style="width: 100%; position: relative;">
+        <div id="main">
+            <div style="position: absolute; z-index: 2;">
+                <div id="text-box1">
+                    <span id="one" class="large-text">1</span>
+                    <span id="two" class="h1">st International Conference on <br> </span> 
+                    <span id="three" class="h1"> " Artificial Intelligence </span><br> <span id="three" class="h1"> &nbsp;&nbsp;&nbsp;&nbsp;& Machine Vision " </span>
+                </div>
+                <div id="text-box3" style="display: flex;">
+                    <span class="img-box" style="display: flex;">
+                        <img class="small-upper" src="Vector 12.png">
+                        <span class="img-text-box h3" id="days">69</span>
+                        <img class="small-lower" src="Vector 13.png">
+                    </span>
+                    <span class="img-box" style="display: flex;">
+                        <img class="small-upper" src="Vector 12.png">
+                        <span class="img-text-box h3" id="hours">69</span>
+                        <img class="small-lower" src="Vector 13.png">
+                    </span>
+                    <!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -->
+                    <span class="img-box" style="display: flex;">
+                        <img class="small-upper" src="Vector 12.png">
+                        <span class="img-text-box h3" id="minutes">69</span>
+                        <img class="small-lower" src="Vector 13.png">
+                    </span>
+                    <!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -->
+                    <span class="img-box" style="display: flex;">
+                        <img class="small-upper" src="Vector 12.png">
+                        <span class="img-text-box h3" id="seconds">69</span>
+                        <img class="small-lower" src="Vector 13.png">
+                    </span>
+                </div>
+                <!-- <div id="register-box">
+                    <button class="corner-button h4" onclick="location.href='coming-soon.html'">
+                      <span>Register Now</span>
+                    </button>
+                </div> -->
+                <div id="date-location">
+                    <div id="date-box">
+                        <svg style="fill:#F19384;" height="44px" width="47px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="33px" height="33px" viewBox="0 0 33 33" style="enable-background:new 0 0 33 33;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M28.5,0h-24C2.019,0,0,2.019,0,4.5v24C0,30.98,2.019,33,4.5,33h24c2.48,0,4.5-2.02,4.5-4.5v-24C33,2.019,30.98,0,28.5,0z
+                                     M31.5,28.5c0,1.648-1.35,3-3,3h-24c-1.65,0-3-1.352-3-3v-24c0-1.649,1.35-3,3-3h24c1.65,0,3,1.351,3,3V28.5z"/>
+                                <circle cx="9.25" cy="4.773" r="1.273"/>
+                                <circle cx="16.5" cy="4.773" r="1.273"/>
+                                <circle cx="23.75" cy="4.773" r="1.273"/>
+                                <rect x="11.134" y="12.902" width="4.596" height="4.088"/>
+                                <rect x="17.271" y="12.902" width="4.595" height="4.088"/>
+                                <rect x="23.404" y="12.902" width="4.596" height="4.088"/>
+                                <rect x="5" y="18.359" width="4.595" height="4.086"/>
+                                <rect x="11.134" y="18.359" width="4.596" height="4.086"/>
+                                <rect x="17.271" y="18.359" width="4.595" height="4.086"/>
+                                <rect x="23.404" y="18.359" width="4.596" height="4.086"/>
+                                <rect x="5" y="23.816" width="4.595" height="4.086"/>
+                                <rect x="11.134" y="23.816" width="4.596" height="4.086"/>
+                                <rect x="17.271" y="23.816" width="4.595" height="4.086"/>
+                                <rect x="23.404" y="23.816" width="4.596" height="4.086"/>
+                            </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        <span class="h4" id="date-text">24 - 26 SEP, 2021</span>
+                    </div>
+                    <div id="location-box">
+                        <svg style="fill:#F19384;" height="44px" width="47px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M256,0C161.896,0,85.333,76.563,85.333,170.667c0,28.25,7.063,56.26,20.49,81.104L246.667,506.5
+                                    c1.875,3.396,5.448,5.5,9.333,5.5s7.458-2.104,9.333-5.5l140.896-254.813c13.375-24.76,20.438-52.771,20.438-81.021
+                                    C426.667,76.563,350.104,0,256,0z M256,256c-47.052,0-85.333-38.281-85.333-85.333c0-47.052,38.281-85.333,85.333-85.333
+                                    s85.333,38.281,85.333,85.333C341.333,217.719,303.052,256,256,256z"/>
+                            </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        <span class="h4" id="location-text"><a href="https://maps.google.com/maps?ll=23.154186,72.666768&z=17&t=m&hl=en&gl=IN&mapclient=embed&cid=10969099314911530773" style="color:#2C6C82;">PDEU, GANDHINAGAR</a></span>
+                    </div>
+                </div>
+            </div>
+            <div style="position: relative; top: 0; z-index: 1;">
+                <div id="banner">
+                    <!-- <img id="right-triangle" src="Polygon 2.png"> -->
+                    <img id="left-triangle" src="Polygon 1.png">
+                    <img id="left-image" src="Vector 3.png">
+                    <div id="right-image">
+                        <div id="slide1"><img></div>  
+                        <div id="slide2"><img></div>  
+                        <div id="slide3"><img></div>  
+                        <div id="slide4"><img></div>
+                        <div id="slide5"><img></div>
+                        <div id="slide6"><img></div>
+                        <div id="slide7"><img></div>
+                        <div id="slide8"><img></div>
+                        <div id="slide9"><img></div>
+                    </div>
+                    <img id="middle-strip" src="Vector 4.png">
+                    <img id="middle-lower-strip" src="Vector 5.png">
+                    <img id="horizontal-strip" src="Vector 6.png">
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- /.Banner -->
+    <center>
+        <div id="down-main">
+            <p id="about_us"> </p>
+            <p class="hh1" id="heading"> <span> About Us </span> </p>
+            <div style="background: #e6e9ed; width: 100%;">
+                <div class="hh4" id="content"> 1st International Conference on Artificial Intelligence and Machine Vision is being organized by the Department of Computer Science and Engineering, School of Technology, Pandit Deendayal Energy University, Gandhinagar, Gujarat, India from September 24-26, 2021. The conference is proposed with a basic theme towards 'Artificial Intelligence and Machine Vision'. AIMV 2021 will provide researchers to interact and collaborate under one umbrella for recent developments, applications and research outcomes on Computer Vision, Machine Intelligence, Human Computer Interaction and Data Science. The conference has Plenary Talks and Expert Panel discussions as well. <br><br><u><a style="color:#2C6C82;" href="final_brochure.pdf" target="_blank" rel="noopener noreferrer">View Brochure (AIMV '21)</a></u>
+                <br><br><u><a style="color:#2C6C82;" href="souvenir.pdf" target="_blank" rel="noopener noreferrer">View Souvenir (AIMV '21)</a></u>
+                <br><br><u><a style="color:#2C6C82;" href="report.pdf" target="_blank" rel="noopener noreferrer">View Full Event Report (AIMV '21)</a></u>
+                </div>
+                <!-- <div class="hh4" id="content"></div> -->
+            </div>
+            <p class="hh1" id="heading"> <span> Publication </span> </p>
+            <div style="background: #e6e9ed; width: 100%;">
+                <div class="hh4" id="content"> - All the accepted and presented papers will be published on <b><i>IEEE Digital Library</i></b> and it will be <b><i>Scopus Indexed</i></b>.  </div>
+            </div>
+            <p class="hh1" id="heading"> <span> Associations </span> </p>
+            <div id="table-format" style="background: #e6e9ed; width: 100%;">
+                <div class="hh4" id="associations">
+                    <table style="width: 100%; align-items: center; justify-content: center; text-align: center;">
+                        <tr>
+                            <!-- <td style="padding-bottom: 20px;"> <a href="https://site.ieee.org/indiacouncil/"> <img style="object-fit:contain;" src="ieee-i.png" height="125" width="255" title="IEEE - India"> </a> </td> -->
+                            <td style="padding-bottom: 20px;"> <a href="https://pdpu.ac.in"> <img style="object-fit:contain;" src="pdeu-logo.png" title="PDEU" height="105" width="275"> </a> </td>
+                            <td style="padding-bottom: 20px;"> <a href="https://ieeegujaratsection.org/"> <img style="object-fit:contain;" src="ieee-g.png" height="105" width="275" title="IEEE - Gujarat"> </a> </td>
+                        </tr>
+                        <tr>
+                            <!-- <td> <a href="about-ieee-i.html" class="hh4" id="links"> Read More > </a> </td> -->
+                            <td> <a href="about-pdeu.html" class="hh4" id="links"> Read More > </a> </td>
+                            <td> <a href="about-ieee-g.html" class="hh4" id="links"> Read More > </a> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="temp" style="background: #e6e9ed; width: 100%;">
+                <div class="hh4" id="associations">
+                    <!-- <div>
+                        <div style="padding-bottom: 2px;"> <a href="https://site.ieee.org/indiacouncil/"> <img style="object-fit:contain;" src="ieee-i.png" height="120" width="250" title="IEEE - India"> </a> </div>
+                        <div> <a class="hh4" href="about-ieee-i.html" id="links"> Read More > </a> </div>
+                    </div> -->
+                    <div style="padding-top:0px; padding-bottom: 15px;">
+                        <div style="padding-bottom: 15px;"> 
+                            <a href="https://pdpu.ac.in"> <img style="object-fit:contain;" src="pdeu-logo.png" title="PDEU" height="100" width="270"> </a> 
+                        </div>
+                        <div> <a class="hh4" href="about-pdeu.html" id="links"> Read More > </a> </div>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <div style="padding-top: 28px;"> <a href="https://ieeegujaratsection.org/"> <img style="object-fit:contain;" src="ieee-g.png" height="85" width="270" title="IEEE - Gujarat"> </a> </div>   
+                        <div> <a class="hh4" href="about-ieee-g.html" id="links"> Read More > </a> </div>
+                    </div>
+                </div>
+            </div>
+            <p class="hh1" id="heading"> <span> Tracks </span> </p>
+            <div style="background: #e6e9ed; width: 100%;">
+                <div id="tracks">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="hh4 track-card"> Computer Vision </div>
+                        </div>
+                        <div class="hh6 flip-card-back">
+                            <div class="track-card">
+                              <div> - Image Processing </div>
+                              <br/>
+                              <div> - Signal Processing </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="hh4 track-card"> Machine Intelligence </div>
+                        </div>
+                        <div class="hh6 flip-card-back">
+                            <div class="track-card">
+                              <div> - Computing </div>
+                              <br/>
+                              <div> - Deep Learning </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="hh4 track-card"> Human Computer Interaction </div>
+                        </div>
+                        <div class="hh6 flip-card-back">
+                            <div class="track-card">
+                              <div> - IOT </div>
+                              <br/>
+                              <div> - Robotics </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="hh4 track-card"> Data Science </div>
+                        </div>
+                        <div class="hh6 flip-card-back">
+                            <div class="track-card">
+                              <div> - Analytical Techniques </div>
+                              <br/>
+                              <div> - Mathematical and Statistical Techniques </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="hh4 track-card"> Cognitive Science </div>
+                        </div>
+                        <div class="hh6 flip-card-back">
+                            <div class="track-card">
+                              <div> - Cognitive Psychology </div>
+                              <br/>
+                              <div> - Linguistics </div>
+                              <br/>
+                              <div> - Neural Science </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div style="padding-bottom: 30px; padding-top: 5px;" class="hh4">
+                     - For more details about tracks', <a style="color: #2C6C82;" href="track-details.html">click here</a>.
+                </div>
+            </div>
+            <p class="hh1" id="heading"> <span> Special Sessions </span> </p>
+            <div style="background: #e6e9ed; width: 100%;">
+                <div id="tracks">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="hh4 track-card"> Intelligent Information Processing </div>
+                        </div>
+                        <div class="hh6 flip-card-back">
+                            <div class="track-card">
+                              <div> - Agent-Based Systems </div>
+                              <br/>
+                              <div> - Data Science </div>
+                              <br/>
+                              <div> - Predictive Analysis </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="hh4 track-card"> Intelligent Modelling using Deep Learning </div>
+                        </div>
+                        <div class="hh6 flip-card-back">
+                            <div class="track-card">
+                              <div> - Document Analysis </div>
+                              <br/>
+                              <div> - Image Segmentation </div>
+                              <br/>
+                              <div> - Ear Biometrics </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div style="padding-bottom: 30px; padding-top: 5px;" class="hh4">
+                     - For more details about the special sessions, <a style="color: #2C6C82;" href="ss.html">click here</a>.
+                </div>
+            </div>
+            <!-- Important Dates Table -->
+            <p id="imp_dates"> </p>
+            <p class="hh1" id="heading"> <span> Important Dates </span> </p>
+            <div style="background: #e6e9ed; width: 100%;">
+                <div id="table-container">
+                    <table align="center" id="imp-dates">
+                        <tr>
+                            <td class="hh4" style="color: #2C6C82; font-weight: 600;">Submission Deadline</td>
+                            <td class="hh4"><strike>10th July, 2021</strike> <span id="dates">31st July, 2021</span></td>
+                        </tr>
+                        <tr>
+                            <td class="hh4" style="color: #2C6C82; font-weight: 600;">Acceptance Notification</td>
+                            <td class="hh4"><strike>15th July, 2021</strike> <span id="dates">5th August, 2021</span></td>
+                        </tr>
+                        <tr>
+                            <td class="hh4" style="color: #2C6C82; font-weight: 600;">Early-Bird Registrations</td>
+                            <td class="hh4" id="dates">15th August, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="hh4" style="color: #2C6C82; font-weight: 600;">Camera-Ready Submission </td>
+                            <td class="hh4" id="dates">25th August, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="hh4" style="color: #2C6C82; font-weight: 600;">Final Version Submission</td>
+                            <td class="hh4" id="dates">25th August, 2021</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- ./Important Dates Table -->
+            <!-- Registration Table -->
+            <p id="reg_fees"> </p>
+            <p class="hh1" id="heading"> <span> Registration Fees </span> </p>
+            <div style="background: #e6e9ed; width: 100%;">
+                <div id="table-container2">
+                    <table align="center" id="reg-details">
+                         <tr>
+                            <td class="hh3" rowspan="2" style="color: #2C6C82;font-weight: 600;">Student Registration<br>(for Virtual Participation)</td>
+                            <td class="hh4">IEEE/CSI Member</td>
+                            <td class="hh4" id="amount">&#8377;4000</td>
+                        </tr>
+                        <tr>
+                            <td class="hh4">Others</td>
+                            <td class="hh4" id="amount">&#8377;5000</td>
+                        </tr>
+
+                        <tr>
+                            <td class="hh3" rowspan="2" style="color: #2C6C82;font-weight: 600;">Student Registration<br>(for Offline Participation)</td>
+                            <td class="hh4">IEEE/CSI Member</td>
+                            <td class="hh4" id="amount">&#8377;5000</td>
+                        </tr>
+                        <tr>
+                            <td class="hh4">Others</td>
+                            <td class="hh4" id="amount">&#8377;6000</td>
+                        </tr>
+
+                        <tr>
+                            <td class="hh3" rowspan="2" style="color: #2C6C82; font-weight: 600;">Faculty Registration</td>
+                            <td class="hh4">IEEE/CSI Member</td>
+                            <td class="hh4" id="amount">&#8377;7500</td>
+                        </tr>
+                        <tr>
+                            <td class="hh4">Others</td>
+                            <td class="hh4" id="amount">&#8377;9000</td>
+                        </tr>
+
+                        <tr>
+                            <td class="hh3" rowspan="2" style="color: #2C6C82; font-weight: 600;">Industry Member</td>
+                            <td class="hh4">IEEE/CSI Member</td>
+                            <td class="hh4" id="amount">&#8377;9000</td>
+                        </tr>
+                        <tr>
+                            <td class="hh4">Others</td>
+                            <td class="hh4" id="amount">&#8377;11000</td>
+                        </tr>
+
+                        <tr>
+                            <td class="hh3" rowspan="2" style="color: #2C6C82; font-weight: 600;">International Registration</td>
+                            <td class="hh4">IEEE/CSI Member</td>
+                            <td class="hh4" id="amount">$300</td>
+                        </tr>
+                        <tr>
+                            <td class="hh4">Others</td>
+                            <td class="hh4" id="amount">$350</td>
+                        </tr>
+
+                        <tr>
+                            <td class="hh3" rowspan="2" style="color: #2C6C82; font-weight: 600;">Attendee</td>
+                            <td class="hh4">-</td>
+                            <td class="hh4" id="amount">&#8377;1000</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+            <!-- ./Registration Table -->
+            <p class="hh1" id="heading"> <span> Gallery </span> </p>
+            <div id="full">
+                <div id="gallery" class="owl-carousel owl-theme">
+                  
+                    <div class="item">      
+                      <h4><img class="ig" src="1.jpg" alt=""/></h4>
+                         <h4  class="ig1" ><img  class="sec" src="6.jpg" alt=""/></h4>      
+                      </div>
+                  
+                      <div class="item">      
+                      <h4><img  class="ig" src="2.jpg" alt=""/></h4>
+                         <h4  class="ig1" ><img  class="sec"  src="7.jpg" alt=""/></h4>      
+                      </div>
+                  
+                      <div class="item">      
+                      <h4><img  class="ig" src="3.jpg" alt=""/></h4>
+                         <h4 class="ig1"><img  class="sec"  src="8.jpg" alt=""/></h4>      
+                      </div>
+                  
+                      <div class="item">      
+                      <h4><img  class="ig" src="4.jpg" alt=""/></h4>
+                         <h4 class="ig1" ><img  class="sec"  src="9.jpg" alt=""/></h4>      
+                      </div>
+                    
+                    <div class="item">      
+                      <h4><img  class="ig" src="5.jpg" alt=""/></h4>
+                         <h4  class="ig1" ><img  class="sec"  src="1.jpg" alt=""/></h4>      
+                      </div>
+
+                </div>
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+
+            <p id="contact_us"> </p>
+            <p class="hh1" id="heading"> <span> Reach Us </span> </p>
+            <div id="blah" style="background: #e6e9ed; width: 100%;">
+              <div class="reach-us-content">
+                <div class="reach-us-info">
+                  <div class="reach-us-address">
+                    <p class="hh5">
+                      Pandit Deendayal Energy University,<br />
+                      Knowledge Corridor, Raisan Village,<br />
+                      Gandhinagar - 382007,<br />
+                      Gujarat (State),<br />
+                      INDIA.
+                    </p>
+                  </div>
+                  <br/>
+                  <br/>
+                  <div class="reach-us-email">
+                    <p class="hh3" style="color:#2C6C82; font-weight: 600;">Email</p>
+                    <p class="hh5" style="color:black;">
+                      <!-- <a id="mail" style="text-decoration: underline; color:black;" href="mailto:enquiry@aimv.in">enquiry@aimv.in</a> <br /> -->
+                      <a id="mail" style="text-decoration: underline; color:black;" href="mailto:aimvpdeu@gmail.com">aimvpdeu@gmail.com</a>
+                      <br>
+                      <br/ >
+                      <!-- <a id="mail" style="text-decoration: underline; color:black;" href="mailto:sbharti1984@gmail.com"> sbharti1984@gmail.com</a> <br />
+                      <a id="mail" style="text-decoration: underline; color:black;" href="mailto:dr.patelsamir@gmail.com"> dr.patelsamir@gmail.com</a> -->
+                    </p>
+                  </div>
+                  <br/>
+                  <div class="reach-us-phone">
+                    <p class="hh3" style="color:#2C6C82; font-weight: 600;">Phone</p>
+                    <p class="hh5">
+                      Dr. Santosh Bharti: <span id="contact" style="text-decoration: underline;"> +91-8917595990</span>
+                      <br/>
+                      Dr. Samir Patel: <span id="contact" style="text-decoration: underline;"> +91-9427401616</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="pdpu-map-div">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1834.2194494480295!2d72.66675548599778!3d23.15417609409621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e802cfe647e33%3A0x983a11b5cb484f15!2sPandit%20Deendayal%20Energy%20University!5e0!3m2!1sen!2sin!4v1616752066242!5m2!1sen!2sin"
+                    height="300"
+                    width="80%"
+                    style="border: 1px solid black; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);"
+                    allowfullscreen=""
+                    loading="lazy"
+                    class="pdpu-map"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+
+            <!-- Popup Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close" class="hh3" onclick="closemodal()">&times;</span>
+                        <div style="width:100%; text-align:center;" class="hh3">Latest Updates</div>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="hh6" style="padding-top: 10px;">
+                            <li><b><u>Important Note</u></b>: In view of the COVID-19 uncertainty, we want to reassure everyone that if travel is not feasible, you will be able to participate online/virtually.</li>
+                            <br>
+                            <!-- <li><b><u>Submission Deadline</u></b>: <strike>10th July, 2021</strike> 31st July, 2021</li>
+                            <li><b><u>About Submission</u></b>: <a href="https://aimv.in/submission.html" style="color:#2C6C82;">Click Here</a></li>
+                            <br>
+                            <li><b><u style="animation: animate 0.5s linear infinite">Registration Fees Updated</u></b>: <a href="registration.html" style="color:#2C6C82;">Click Here</a> to know the updated fees. </li> -->
+                            <!-- <br> -->
+                            <!-- <li><b><a href="registration.html" style="color: #212529;"><u style="animation: animate 0.5s linear infinite;">Registration Link</u></a></b> is now open. </li>
+                            <br/>
+                            <li>Deadline of <a href="index.html#imp_dates" style="color:#2C6C82;">Early-Bird Registrations</a> is <b style="animation: animate 0.5s linear infinite">15th August, 2021.</b></li> -->
+                            <!-- <br/> -->
+                            <!-- <li>Deadline of <a href="index.html#imp_dates" style="color:#2C6C82;">Camera-Ready Submission</a> is <b style="animation: animate 0.5s linear infinite">25th August, 2021.</b></li>
+                             <br/>
+                            <li><a href="program.html" style="color:#2C6C82;">Program Schedule</a> is now available and updated. Check it out!</li> -->
+                            <!-- <br> -->
+                            <!-- <li><a href="travel.html" style="color:#2C6C82; animation: animate 0.5s linear infinite">Venue/Travel</a> page is updated with information about nearby hotels for accommodation. Check out!</li>
+                            <br> -->
+                            <li><a href="final_brochure.pdf" target="_blank" rel="noopener noreferrer" style="color:#2C6C82; animation: animate 0.5s linear infinite">Brochure</a> of the Conference is now available. Check it out!</li>
+<!-- 
+                            <br><li><a href="souvenir.pdf" target="_blank" rel="noopener noreferrer" style="color:#2C6C82; animation: animate 0.5s linear infinite">Souvenir</a> of the Conference is now available. Check it out!</li> -->
+
+                            <br><li>Check out the <a href="closure.html" style="color:#2C6C82; animation: animate 0.5s linear infinite">Event Closure (AIMV '21)</a> of the Conference!</li>
+
+                            <!-- Event Report, Event Gallery, Souvenir, Thank you, Press Note, Drive Link of Pictures-->
+                            
+                            <!-- <br>
+                            <li><a href="ppt_template.html" style="color:#2C6C82; animation: animate 0.5s linear infinite">Presentation Template</a> is now available. Check out!</li>
+ -->                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Popup Modal -->
+            <div style="padding-top:35px; padding-bottom: 10px; color: blue;"><a href='https://www.facebook.com/Aimv2021-105405005011502/' class='socia-media-link'>
+                            <svg viewBox='0 0 24 24' class='social-media-img fb-color'><path d="M17,3H7C4.791,3,3,4.791,3,7v10c0,2.209,1.791,4,4,4h5.621v-6.961h-2.343v-2.725h2.343V9.309c0-2.324,1.421-3.591,3.495-3.591c0.699-0.002,1.397,0.034,2.092,0.105v2.43h-1.428c-1.13,0-1.35,0.534-1.35,1.322v1.735h2.7l-0.351,2.725h-2.365V21H17c2.209,0,4-1.791,4-4V7C21,4.791,19.209,3,17,3z"/></svg>
+                        </a>
+            </div>
+            <div> <small>Copyright &copy; 2021 AIMV. All Rights Reserved</small> </div>
+        </div>
+    </center>
+    </body>
+</html>
+
+<script>
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+   autoplay:true,
+    nav:true,
+    pagination:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+
+var slideIndex = 1;
+showSlides(slideIndex);
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+     var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script>
