@@ -1,161 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="Ipsum.css">
-    <link rel="stylesheet" type="text/css" href="font.css">
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="owl.css"/>
-    <!-- <script src="countdown.js"></script> -->
-    <script src="slideshow.js"></script>
-
-    <title>Press Note - AIMV'21</title>
-    <link rel = "icon" href = "logo_aimv.svg" type = "image/x-icon">
-<style>
-    body {
-      margin: 0px;
-      /* background-color: rgb(119, 119, 119); */
-    }
-
-    h1{
-        font-family: "Poppins", sans-serif;
-    }
-    h2 {
-        font-family: helvetica, sans-serif;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
-        color: black;
-        width: 100%;
-        text-align: center;
-        margin: 0px;
-        letter-spacing: 3px;
-        -webkit-font-smoothing: antialiased;
-        font-weight: normal !important;
-    }
-
-    .big-container{
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 35px;
-
-    }
-
-    .container{
-        position: relative;
-        width: 50%;
-        height: 80vh;
-    }
-    
-
-    /* .container:nth-child(2){
-        pointer-events: none;
-    } */
-
-    /* @media screen and (max-width: 768px){
-        .container{
-            position:fixed;
-            width: 100%;
-        }
-        .container:nth-child(2){
-            background-color: transparent !important;
-        }
-        .container h2{
-            color: white;
-            font-size: 14px;
-            top: inherit;
-            bottom: 30px;
-            -webkit-transform: translate(-50%,0%);
-            -ms-transform: translate(-50%,0%);
-            transform: translate(-50%,0%);
-        }
-    } */
-
-    .big-container
-    {
-        height: 60vh;
-    }
-
-    .slider-arrow-right svg
-    {
-        color: black;
-    }
-    .slider-arrow-right-in svg
-    {
-        color: black;
-    }
-    .slider-arrow-left
-    {
-        left: -15%;
-    }
-    .slider-arrow-left svg
-    {
-        color: black;
-    }
-    .slider-arrow-left-in svg
-    {
-        color: black;
-    }
-
-    #slider{
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    nav{
-        background-color: black;
-    }
-
-    @media screen and (max-width: 765px)
-    {
-        .slider-arrow-right
-        {
-            left: 100%;
-        }
-        .slider-arrow-left
-        {
-            /* left: -13vw; */
-        }
-    }
-    @media screen and (max-width: 650px)
-    {
-        .slider-arrow-right
-        {
-            margin: 0px;
-        }
-        .slider-arrow-left
-        {
-            left: -50px;
-        }
-    }
-</style>
-
-</head>
-<body>
-    <nav id="mynav" class="navbar navbar-static-top navbar-expand-lg primary-color">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="Ipsum.css">
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="countdown.js"></script>
+    </head>
+    <title>Coming soon - AIMV'23</title>
+    <body>
+        <!--Navbar-->
+        <nav id="mynav" class="navbar navbar-static-top navbar-expand-lg primary-color">
             <!-- Navbar brand -->
             <a id="Title" class="navbar-brand" href="index.html"><svg id="logo" width="140" height="100" viewBox="0 0 140 135" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M126.195 59.3297C130.968 59.3297 134.828 63.0516 134.828 67.6547C134.828 72.2531 130.968 75.9797 126.195 75.9797C121.426 75.9797 117.566 72.2531 117.566 67.6547C117.566 63.0516 121.426 59.3297 126.195 59.3297Z" fill="#FF826E"/>
@@ -203,9 +62,8 @@
                 <!-- Links -->
                 <ul class="navbar-nav ml-auto">
 
-
                     <li class="nav-item dropdown">
-                        <a id="white1" class="nav-link hh6" href="index.html" dropdown-toggle id="navbarDropdownMenuLink" style="font-weight: 800; color:#2c6c82; animation: animate 1.5s linear infinite"><span class="sr-only">(current)</span>AIMV '21</a>
+                        <a id="white1" class="nav-link hh6" href="index.html" dropdown-toggle id="navbarDropdownMenuLink" style="font-weight: 800; color:#2c6c82; animation: animate 1.5s linear infinite"><span class="sr-only">(current)</span>AIMV '23</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -216,7 +74,6 @@
                         <a  id="white1" class="nav-link dropdown-toggle hh6" id="navbarDropdownMenuLink" 
                             data-toggle="dropdown">COMMITTEE</a>
                         <div id="dd" class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <!-- <a class="dropdown-item hh6" href="tcp.html">Technical Program Chairs</a> -->
                           <a class="dropdown-item hh6" href="oc.html">Organizing Committee</a>
                           <a class="dropdown-item hh6" href="sc.html">Student Committee</a>
                         </div>
@@ -225,16 +82,6 @@
                     <li class="nav-item dropdown">
                     <a  id="white1" class="nav-link hh6" href="speakers.html" dropdown-toggle id="navbarDropdownMenuLink">SPEAKERS</a>
                     </li>
-
-                    <!-- <li class="nav-item dropdown">
-                        <a  id="white1" class="nav-link" href="coming-soon.html" dropdown-toggle id="navbarDropdownMenuLink" 
-                        data-toggle="dropdown">PROGRAM</a>
-                    </li> -->
-
-                    <!-- <li class="nav-item dropdown">
-                        <a  id="white1" class="nav-link hh5" href="coming-soon.html" dropdown-toggle id="navbarDropdownMenuLink" 
-                        data-toggle="dropdown">REGISTRATION</a>
-                    </li> -->
 
                     <li class="nav-item dropdown">
                         <a  id="white1" class="nav-link dropdown-toggle hh6" id="navbarDropdownMenuLink" 
@@ -249,27 +96,14 @@
                         </div>
                     </li>
 
-                    <!-- <li class="nav-item dropdown">
-                    <a  id="white1" class="nav-link" href="coming-soon.html" dropdown-toggle id="navbarDropdownMenuLink" 
-                    data-toggle="dropdown">DELEGATE INFORMATION</a>
-                        
-                    </li> -->
-
-                    <!-- <li class="nav-item dropdown">
-                    <a  id="white1" class="nav-link" href="coming-soon.html" dropdown-toggle id="navbarDropdownMenuLink" 
-                    data-toggle="dropdown">VENUE/TRAVEL</a>
-                        
-                    </li> -->
-
-
                     <li class="nav-item dropdown">
                         <a  id="white1" class="nav-link dropdown-toggle hh6" id="navbarDropdownMenuLink" 
                             data-toggle="dropdown">MORE</a>
                         <div id="dd" class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <!-- <a class="dropdown-item hh6" href="#">Delegate Information</a> -->
                           <a class="dropdown-item hh6" href="travel.html">Venue/Travel</a>
                           <a class="dropdown-item hh6" href="program.html">Program</a>
                           <a class="dropdown-item hh6" href="index.html#contact_us">Contact Us</a>
+                          <a class="dropdown-item hh6" href="archive.html">Archive</a>
                         </div>
                     </li>
 
@@ -278,386 +112,12 @@
                     </li>
                         
                 </ul>
-                <!-- Links -->
+
             </div>
-            <!-- Collapsible content -->
 
         </nav>
-    <!--/.Navbar-->
-    <br><br>
-    <center>
-            <p class="hh1" id="heading" style="margin-top: 5px;"> <span> Press Note (AIMV '21) </span> </p>
-            <div style="background: #e6e9ed; width: 100%;" id="slider">
-                <div class="big-container">
-            <div class="container">
-            
-          <div id="photo-slider" class="photo-slider">
-            <div class="slider-photo-list">
-              <div class="slider-photo" style="background-image:url(img_pressnote/1.jpeg);"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/2.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/3.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/4.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/5.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/6.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/7.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/8.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/9.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/10.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/11.jpeg)"></div>
-              <div class="slider-photo" style="background-image:url(img_pressnote/12.jpeg)"></div>
-            </div>
-          </div>
-      
-        </div>
-    </div>
-            </div>
-    </center>
-</body>
-<script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
-<script>
-    function detectswipe(el, func) {
-    swipe_det = new Object();
-    swipe_det.sX = 0;
-    swipe_det.sY = 0;
-    swipe_det.eX = 0;
-    swipe_det.eY = 0;
-    var min_x = 20; //min x swipe for horizontal swipe
-    var max_x = 40; //max x difference for vertical swipe
-    var min_y = 40; //min y swipe for vertical swipe
-    var max_y = 50; //max y difference for horizontal swipe
-    var direc = "";
-    ele = document.getElementById(el);
-    ele.addEventListener(
-        "touchstart",
-        function (e) {
-            var t = e.touches[0];
-            swipe_det.sX = t.screenX;
-            swipe_det.sY = t.screenY;
-        },
-        false
-    );
-    ele.addEventListener(
-        "touchmove",
-        function (e) {
-            var t = e.touches[0];
-            swipe_det.eX = t.screenX;
-            swipe_det.eY = t.screenY;
-        },
-        false
-    );
-    ele.addEventListener(
-        "touchend",
-        function (e) {
-            //horizontal detection
-            if (
-                (swipe_det.eX - min_x > swipe_det.sX ||
-                    swipe_det.eX + min_x < swipe_det.sX) &&
-                (swipe_det.eY < swipe_det.sY + max_y &&
-                    swipe_det.sY > swipe_det.eY - max_y)
-            ) {
-                if (swipe_det.eX > swipe_det.sX) direc = "r";
-                else direc = "l";
-            }
-            if (direc != "") {
-                if (typeof func == "function") func(el, direc);
-            }
-            direc = "";
-        },
-        false
-    );
-}
-
-function vlkSlider(sliderDiv, options) {
-    var thisSlider = document.getElementById(sliderDiv),
-        photoList,
-        photo,
-        autoCount = 0,
-        autoCountBack = 0,
-        stylePseudoElem,
-        transitionTimeDelay = 300,
-        transitionDurationTime = '.5s'
-
-    var arrowLeft = '<div id="slider-arrow-left" class="slider-arrow-left">';
-    arrowLeft += '<div class="slider-arrow-left-in"><span class="iconify" data-icon="ic:round-navigate-next" style="color:black;" data-width="50" data-rotate="180deg"></span></div>';
-    var arrowRight = '<div id="slider-arrow-right" class="slider-arrow-right">';
-    arrowRight += '<div class="slider-arrow-right-in"><span class="iconify" data-width="50" data-icon="ic:round-navigate-next"></span></div></div>';
-    var thisSlideStyle = {
-        position: "absolute",
-        top: "0",
-        left: "0",
-        width: "100%",
-        height: "60vh",
-        overflow: "",
-        "background-size": "cover",
-        "background-position": "center",
-        "background-color": "black"
-    };
-
-    var blurEffect = {
-        position: "absolute",
-        top: "0",
-        left: "0",
-        width: "100%",
-        height: "100%",
-        overflow: "hidden",
-        "background-size": "cover",
-        "background-position": "center",
-        "background-color": "black",
-        "-webkit-filter": "blur(20px)",
-        filter: "blur(20px)"
-    };
-
-    var photoFakeStyle = {
-        position: "absolute",
-        width: "100%",
-        height: "100%",
-        "background-size": "cover",
-        "background-position": "center center",
-        "-webkit-filter": "blur(0px)",
-        filter: "blur(0px)",
-        "-webkit-transition": "filter .8s",
-        "-o-transition": "filter .8s" ,
-        transition: "filter .8s",
-    };
-
-    var photoListStyle = {
-        position: "absolute",
-        top: "0",
-        left: "0",
-        width: "100%",
-        height: "100%",
-        overflow: "hidden",
-        "background-size": "cover",
-        "background-position": "center",
-        "-webkit-transition": "0.4s",
-        "-o-transition": "0.4s",
-        transition: "0.4s"
-    };
-
-    stylePseudoElem = document.head.appendChild(document.createElement("style"));
-
-    stylePseudoElem.innerHTML =
-        ".slider-arrow-left { font-size: 28px; position: absolute;height: 50px;width: 50px;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);cursor: pointer; clip-path:circle();} ";
-
-    stylePseudoElem.innerHTML +=
-        ".slider-arrow-left-in:before {content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); clip-path:circle();} ";
-
-    stylePseudoElem.innerHTML +=
-        ".slider-arrow-left-in { padding-top: 8px; position: absolute;top: 50%;width: 50px;height: 50px; -webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%); z-index: 50;pointer-events: none; color: white; clip-path:circle();} ";
-
-    stylePseudoElem.innerHTML +=
-        ".slider-arrow-right { position: absolute;right: -15%;height: 50px;width: 50px;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%); font-size: 28px; padding-top: 7px; transform: translateY(-50%);cursor: pointer;  clip-path:circle();} ";
-
-    stylePseudoElem.innerHTML +=
-        ".slider-arrow-right-in { padding-top: 8px; position: absolute;top: 50%; width: 50px; height: 50px; -webkit-transform: translateY(-50%);-ms-transform: translateY(-50%); color: white; transform: translateY(-50%); pointer-events: none;  clip-path:circle();}";
-
-    stylePseudoElem.innerHTML +=
-        ".slider-arrow-right-in:before {content: '';position: absolute;top: 50%;right: 0%; width:50px; transform: translateY(-50%) rotate(-45deg);width: 50px;height: 50px ; transform: translate(-50%, -50%); clip-path:circle();}";
-
-    //place Arrow
-    Object.assign(thisSlider.style, thisSlideStyle);
-    thisSlider.innerHTML += arrowLeft;
-    thisSlider.innerHTML += arrowRight;
-
-    //define photoList div
-
-    for (var i = 0; i < thisSlider.childNodes.length; i++) {
-        if (thisSlider.childNodes[i].className == "slider-photo-list") {
-            photoList = thisSlider.childNodes[i];
-        }
-    }
-
-    Object.assign(photoList.style, photoListStyle);
-
-    var arrowLeftEl = thisSlider.getElementsByClassName("slider-arrow-left"),
-        arrowRightEl = thisSlider.getElementsByClassName("slider-arrow-right"),
-        arrowRightElClick = 0,
-        arrowLeftElClick = 0;
-    if (arrowLeftElClick == 0) {
-        arrowLeftEl[0].style.display = "none";
-    }
-
-    //define inital photo position
-
-    photo = photoList.getElementsByClassName("slider-photo");
-    var photoPosition = 0;
-
-    if (photo.length == 1) {
-        arrowRightEl[0].style.display = "none";
-    }
-
-    var thisSliderPhotoFake = document.createElement("div");
-    thisSliderPhotoFake.classList += "slider-photo-fake";
-    thisSlider.insertBefore(thisSliderPhotoFake, thisSlider.childNodes[0]);
-
-    Object.assign(thisSliderPhotoFake.style, photoFakeStyle);
-
-    for (var i = 0; i < photo.length; i++) {
-        photo[i].style.left = photoPosition + "%";
-        var scale = '1';
-        if (i > 0) {
-            scale = '0.5';
-        }
-        photoPosition += 100;
-        Object.assign(photo[i].style, {
-            position: "absolute",
-            width: "100%",
-            height: "60vh",
-            "transform": 'scale(' + scale + ')',
-            "-webkit-transform": 'scale(' + scale + ')',
-            "-ms-transform": 'scale(' + scale + ')',
-            "background-size": "contain",
-			"background-repeat": "no-repeat",
-            "background-position": "center center",
-			"background-color": "#ccc",
-            "transition": "left" + transitionDurationTime + ", -webkit-transform .4s .4s",
-            "-webkit-transition": 'left' + transitionDurationTime + ',transform .5s 0.5s',
-            "transition": "left" + transitionDurationTime + ",transform .4s .4s",
-            "-o-transition": "left" + transitionDurationTime + ", transform .4s .4s",
-            "transition": "left" + transitionDurationTime + ", transform .4s .4s, -webkit-transform " + transitionDurationTime
-        });
-    }
-
-    function moveFw() {
-        if (arrowRightElClick == photo.length - 1 || photo.length == 1) {
-            return;
-        }
-        arrowRightEl[0].style.pointerEvents = "none";
-        arrowRightElClick = arrowRightElClick + 1;
-        arrowLeftElClick = arrowLeftElClick + 1;
-        if (arrowRightElClick == photo.length - 1) {
-            arrowRightEl[0].style.display = "none";
-        } else {
-            arrowRightEl[0].style.display = "block";
-        }
-        if (arrowLeftElClick != 0) {
-            arrowLeftEl[0].style.display = "block";
-        }
-        for (var i = 0; i < photo.length; i++) {
-            var thisPhoto = photo[i]
-            var thisLeft = thisPhoto.style.left.replace("%", "");
-            var changedLeft = thisLeft - 100;
-            thisPhoto.style.left = changedLeft + '%';
-            if (thisLeft == 100) {
-                thisPhoto.style.transform = 'scale(1)';
-                thisPhoto.style.webkitTransform = 'scale(1)';
-                thisPhoto.style.msTransform = 'scale(1)';
-            }
-            if (thisLeft != 100) {
-                thisPhoto.style.transform = 'scale(0.5)';
-                thisPhoto.style.webkitTransform = 'scale(0.5)';
-                thisPhoto.style.msTransform = 'scale(0.5)';
-            }
-
-            if (thisLeft == 0) {
-                photo[i].style.opacity = "0";
-                var currentBackground = photo[i].style.backgroundImage;
-                thisSliderPhotoFake.style.backgroundImage = currentBackground;
-                Object.assign(thisSliderPhotoFake.style, blurEffect);
-                setTimeout(function () {
-                    Object.assign(thisSliderPhotoFake.style, photoFakeStyle);
-                    if (arrowRightElClick == photo.length - 1) {
-                        arrowRightEl[0].style.pointerEvents = "none";
-                    } else {
-                        arrowRightEl[0].style.pointerEvents = "auto";
-                    }
-                    if (arrowLeftElClick != 0) {
-                        arrowLeftEl[0].style.pointerEvents = "auto";
-                    }
-                }, 1000);
-            } else {
-                photo[i].style.opacity = "1";
-            }
-        }
-    }
-
-    function moveBack() {
-        if (arrowLeftElClick == 0) {
-            return;
-        }
-        arrowLeftEl[0].style.pointerEvents = "none";
-        arrowRightElClick = arrowRightElClick - 1;
-        arrowLeftElClick = arrowLeftElClick - 1;
-        if (arrowLeftElClick == 0) {
-            arrowLeftEl[0].style.display = "none";
-        } else {
-            arrowLeftEl[0].style.display = "block";
-        }
-        if (arrowRightElClick != photo.length - 1) {
-            arrowRightEl[0].style.display = "block";
-        }
-        for (var i = 0; i < photo.length; i++) {
-            var thisPhoto = photo[i];
-            var thisLeft = photo[i].style.left.replace("%", "");
-            var changedLeft = parseInt(thisLeft) + 100;
-            photo[i].style.left = changedLeft + '%';
-            if (thisLeft == -100) {
-                console.log ('a');
-                thisPhoto.style.transform = 'scale(1)';
-                thisPhoto.style.webkitTransform = 'scale(1)';
-                thisPhoto.style.msTransform = 'scale(1)';
-            }
-            if (thisLeft != -100) {
-                console.log ('b');
-                thisPhoto.style.transform = 'scale(0.5)';
-                thisPhoto.style.webkitTransform = 'scale(0.5)';
-                thisPhoto.style.msTransform = 'scale(0.5)';
-            }
-            if (thisLeft == 0) {
-                console.log (thisLeft);
-                photo[i].style.opacity = "0";
-                var currentBackground = photo[i].style.backgroundImage;
-                thisSliderPhotoFake.style.backgroundImage = currentBackground;
-                Object.assign(thisSliderPhotoFake.style, blurEffect);
-                setTimeout(function () {
-                    Object.assign(thisSliderPhotoFake.style, photoFakeStyle);
-                    if (arrowRightElClick == photo.length - 1) {
-                        arrowRightEl[0].style.pointerEvents = "none";
-                    } else {
-                        arrowRightEl[0].style.pointerEvents = "auto";
-                    }
-                    if (arrowLeftElClick != 0) {
-                        arrowLeftEl[0].style.pointerEvents = "auto";
-                    }
-                }, 1000);
-            } else {
-                photo[i].style.opacity = "1";
-            }
-
-        }
-    }
-
-    //define arrowRight function on click
-
-    document.addEventListener("click", function (e) {
-        if (e.target == arrowRightEl[0]) {
-            moveFw();
-        }
-        //define arrowleft function on click
-
-        if (e.target == arrowLeftEl[0]) {
-            moveBack();
-        }
-    });
-
-    function swipeChange(el, d) {
-        if (d == "r") {
-            moveBack();
-        }
-        if (d == "l") {
-            moveFw();
-        }
-    }
-    detectswipe(thisSlider.id, swipeChange);
-}
-
-var sliders = document.getElementsByClassName('photo-slider')
-
-for (i = 0; i < sliders.length; i++) {
-    sliders[i].id = 'photo-slider-' + (i + 1)
-    vlkSlider("photo-slider-" + (i + 1));
-}
-</script>
+        <center>
+            <div  class="large-text" id="coming-soon"> Coming Soon! </div>
+        </center>
+    </body>
 </html>
-
-
